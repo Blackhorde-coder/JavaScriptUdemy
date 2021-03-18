@@ -21,9 +21,9 @@ var puesto;
 console.log (puesto);
 puesto = null;
 console.log (puesto);
-*/
+
 //operadores matematicos
-/*
+
 var edadAna, edadMaria, diferenciaEdad;
 var sumaEdades, yearAna, yearMaria, yearActual;
 
@@ -43,10 +43,10 @@ console.log ('Año en el que nacio Ana'+ yearAna);
 console.log ('Año en el que nacio Maria'+ yearMaria);
 console.log (yearActual*5);
 console.log(yearActual/5);
-*/
+
 //operadores logicos, unarios y de asignacion
 //logicos <> <= >= == negacion !
-/*
+
 var edadAna, edadMaria, diferenciaEdad;
 
 edadAna = 34;
@@ -72,10 +72,10 @@ var c= a % b;
 console.log (c);
 
 a+=b; //a = a+b
-*/
+
 
 //sentencias if else
-/*
+
 var nombre = 'HERNAN';
 var esCasado = false;
 
@@ -87,9 +87,9 @@ else
 {
     console.log(nombre + ' es soltero.')
 }
-*/
+
 //sentencias logicas NOT, AND & OR
-/*
+
 var nombre = 'HERNAN';
 var edad = 60;
 
@@ -114,10 +114,10 @@ else
 {
     console.log (nombre + ' es un anciano');
 }
-*/
+
 
 //sentencia swich
-/*
+
 var mes = 5;
 
 switch (mes) {
@@ -142,21 +142,33 @@ switch (mes) {
     default:
         console.log('mes no encontrado.');
 }
-*/
+
 //sentencias for.
-/*
+
 for( var i = 1; i<=10; i++)
 {
     console.log(i);
 }
-*/
+
 // sentencia while, do while
 
-var i = 1;
+//var i = 11;
+
 while (i<= 10)
 {
     console.log(i);
     i++;
 }
 
+
+//sentencia do while
+
+do
+{
+    console.log(i);
+    i++;
+}while(i<=10);
+*/
+
+//FUNCIONES
 
