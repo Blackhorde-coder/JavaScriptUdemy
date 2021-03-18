@@ -46,7 +46,7 @@ console.log(yearActual/5);
 */
 //operadores logicos, unarios y de asignacion
 //logicos <> <= >= == negacion !
-
+/*
 var edadAna, edadMaria, diferenciaEdad;
 
 edadAna = 34;
@@ -72,3 +72,46 @@ var c= a % b;
 console.log (c);
 
 a+=b; //a = a+b
+*/
+
+//sentencias if else
+/*
+var nombre = 'HERNAN';
+var esCasado = false;
+
+if(esCasado == true)
+{
+    console.log(nombre + ' es casado.');
+}
+else
+{
+    console.log(nombre + ' es soltero.')
+}
+*/
+//sentencias logicas NOT, AND & OR
+var nombre = 'HERNAN';
+var edad = 60;
+
+//edad < 12 es un niño
+//edad >11 , es < 18 es un adolencente
+// edad > 17 es < 60 es un adulto
+// edad > 60 es un anciano
+
+if(edad<12)
+{
+    console.log(nombre + ' es un niño.');
+}
+else if((edad>11)&&(edad<18))
+{
+    console.log (nombre + ' es un adolencete');
+}
+else if((edad>17)&&(edad<60))
+{
+    console.log (nombre + ' es un adulto');
+}
+else
+{
+    console.log (nombre + ' es un anciano');
+}
+
+
