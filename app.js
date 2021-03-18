@@ -23,7 +23,7 @@ puesto = null;
 console.log (puesto);
 */
 //operadores matematicos
-
+/*
 var edadAna, edadMaria, diferenciaEdad;
 var sumaEdades, yearAna, yearMaria, yearActual;
 
@@ -43,3 +43,32 @@ console.log ('Año en el que nacio Ana'+ yearAna);
 console.log ('Año en el que nacio Maria'+ yearMaria);
 console.log (yearActual*5);
 console.log(yearActual/5);
+*/
+//operadores logicos, unarios y de asignacion
+//logicos <> <= >= == negacion !
+
+var edadAna, edadMaria, diferenciaEdad;
+
+edadAna = 34;
+edadMaria = 28;
+
+var mayorAna = !(edadAna > edadMaria);
+
+console.log (mayorAna);
+
+// operadores unarios, ++incremento, --decremento
+
+edadAna++;
+
+console.log(edadAna);
+
+//operadores de asignacion += -= += /= %=
+
+var a = 11;
+var b = 5;
+
+var c= a % b; 
+
+console.log (c);
+
+a+=b; //a = a+b
