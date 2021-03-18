@@ -89,6 +89,7 @@ else
 }
 */
 //sentencias logicas NOT, AND & OR
+/*
 var nombre = 'HERNAN';
 var edad = 60;
 
@@ -112,6 +113,50 @@ else if((edad>17)&&(edad<60))
 else
 {
     console.log (nombre + ' es un anciano');
+}
+*/
+
+//sentencia swich
+/*
+var mes = 5;
+
+switch (mes) {
+    case 1:
+        console.log('enero')
+        break;
+    case 2:
+        console.log('febrero')
+        break;
+    case 3:
+        console.log('marzo')
+        break;
+    case 4:
+        console.log('abril')
+        break;
+    case 5:
+        console.log('mayo')
+        break;
+    case 6:
+        console.log('junio')
+        break;
+    default:
+        console.log('mes no encontrado.');
+}
+*/
+//sentencias for.
+/*
+for( var i = 1; i<=10; i++)
+{
+    console.log(i);
+}
+*/
+// sentencia while, do while
+
+var i = 1;
+while (i<= 10)
+{
+    console.log(i);
+    i++;
 }
 
 
